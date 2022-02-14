@@ -1,9 +1,13 @@
+html {
+    font-family: "Roboto",serif;
+    box-sizing: border-box;
+}
+*, *::before, *::after {
+    box-sizing: inherit;
+  }
 * {
     margin: 0;
     padding: 0;
-}
-html {
-    font-family: "Roboto",serif;
 }
 header {
     /* height: 2rem; */
@@ -24,6 +28,8 @@ header nav li {
     margin: 5rem;
     background-color: #1f2937;
     display: flex;
+    width: 800px;
+    
 }
 .hero h1 {
     color: #f9faf8;
@@ -37,5 +43,7 @@ header nav li {
     background-color: #3882f6;
 }
 .hero .image {
-    
+    background-color: gray;
+    width: 50%;
+    flex: 1;
 }
