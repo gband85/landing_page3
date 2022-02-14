@@ -2,3 +2,40 @@
     margin: 0;
     padding: 0;
 }
+html {
+    font-family: "Roboto",serif;
+}
+header {
+    /* height: 2rem; */
+    background-color: #1f2937;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+header nav {
+display: flex;
+justify-content: space-between;
+align-items: center;
+height: 2rem;
+}
+header nav li {
+    display: inline;
+}
+.hero {
+    margin: 5rem;
+    background-color: #1f2937;
+    display: flex;
+}
+.hero h1 {
+    color: #f9faf8;
+    font-size: 3rem;
+}
+.hero p {
+    font-size: 1.2rem;
+    color: #e5e7eb;
+}
+.hero button {
+    background-color: #3882f6;
+}
+.hero .image {
+    
+}
