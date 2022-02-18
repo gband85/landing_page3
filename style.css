@@ -17,7 +17,7 @@ body {
 header {
     /* height: 2rem; */
     background-color: #1f2937;
-    padding: 0.5rem 5rem 0;
+    padding: 0.5rem 8rem 0;
 }
 header nav {
 display: flex;
@@ -29,6 +29,7 @@ header nav .logo {
     font-size: 24px;
     color: #f9faf8;
     text-decoration: none;
+    font-weight: bold;
 }
 header nav li {
     display: inline;
@@ -54,7 +55,7 @@ header nav ul a {
     /* margin: 5rem; */
     background-color: #1f2937;
     display: flex;
-    padding: 5rem;
+    padding: 8rem;
     /* margin: 0 auto; */
     justify-self: center;
 }
@@ -123,4 +124,20 @@ margin: 0 20px;
   width: 150px;  
   font-size: 16px;
     text-align: center;
+}
+.quote {
+    background-color: #e5e7eb;
+    padding: 5rem 17rem;
+}
+.quote p {
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+    font-weight: 300;
+}
+.quote figcaption {
+    font-size: 24px;
+    font-weight: bold;
+    /* float: right; */
+    text-align: right;
 }
