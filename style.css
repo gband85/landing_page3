@@ -73,6 +73,7 @@ header nav ul a {
     padding: 0.5rem 1.5rem;
     border-radius: 5px;
     border-color: #3882f6;
+    margin-top: 20px;
 }
 .hero .image {
     background-color: gray;
