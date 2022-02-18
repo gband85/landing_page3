@@ -17,11 +17,7 @@ body {
 header {
     /* height: 2rem; */
     background-color: #1f2937;
-    padding-left: 5rem; 
-    padding-right: 5rem;
-    /* margin-right: 5rem;
-    /* width: 800px; */
-    /* margin: 0 auto; */
+    padding: 0.5rem 5rem 0;
 }
 header nav {
 display: flex;
@@ -45,12 +41,14 @@ header nav ul a {
 
 }
 .container {
+    /* margin-top: ; */
         /* wi/dth: 800px;  */
         flex-direction: column;
     /* display: flex; */
     /* justify-content: center; */
     /* align-items: center; */
     /* margin: 0 auto;     */
+    /* padding: 4rem 5rem 0; */
 }
 .hero {
     /* margin: 5rem; */
@@ -96,18 +94,33 @@ flex: 1;
     
 }
 .info {
-    padding: 5rem;
+    padding: 2rem 5rem;
+}
+.info-title {
+    text-align: center;
 }
 .gallery {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 400px;
+    margin-top: 30px;
+    /* height: 400px; */
+}
+.item {
+  display: flex;  
+    flex-direction: column;
+    align-items: center;
 }
 .square {
-width: 100px;
-height: 100px;
+width: 150px;
+height: 150px;
 border: 3px solid blue;
 border-radius: 10px;
 margin: 0 20px;
+}
+.caption {
+    margin-top: 5px;
+  width: 150px;  
+  font-size: 16px;
+    text-align: center;
 }
