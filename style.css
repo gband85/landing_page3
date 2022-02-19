@@ -74,6 +74,7 @@ header nav ul a {
     border-radius: 5px;
     border-color: #3882f6;
     margin-top: 20px;
+    font-weight: bold;
 }
 .hero .image {
     background-color: gray;
@@ -141,4 +142,29 @@ margin: 0 20px;
     font-weight: bold;
     /* float: right; */
     text-align: right;
+}
+.call {
+    margin: 5rem 8rem;
+}
+.banner {
+    display: flex;
+    background-color: #3882f6;
+    padding: 3rem 7rem;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.banner h1 {
+    font-size: 24px;
+    color: #e5e7eb;
+}
+.banner p {
+    color: #e5e7eb;
+}
+.banner button {
+    padding: 5px 30px;
+    background-color: #3882f6;
+    border: 3px solid #e5e7eb;
+    font-weight: bold;
+    color: #e5e7eb;
+    border-radius: 5px;
 }
