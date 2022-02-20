@@ -33,6 +33,7 @@ header nav .logo {
 }
 header nav li {
     display: inline;
+    padding: 0 5px;
 }
 header nav ul a {
     color: #e5e7eb;
